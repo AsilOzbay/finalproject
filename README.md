@@ -58,7 +58,7 @@ const APIKEY = 'api_key=YOUR_TMDB_API_KEY';
 Run the Application:
 
 Start your web server and navigate to the project directory.
-Open your browser and go to http://localhost/movie-database-app/index.html.
+Open your browser and go to http://localhost/final/index.html.
 Usage
 Browse Popular Movies: Open the application to see a list of popular movies.
 Search: Use the search bar to find movies, TV shows, or people by typing at least three letters.
