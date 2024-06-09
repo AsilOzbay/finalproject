@@ -1,6 +1,7 @@
 # IMBD Clone
 
-??NO DB FOR MOVIES, USING THE MOVIE DATABASE API
+??NO DB FOR MOVIES, USING THE MOVIE DATABASE 
+
 ??NO GOOGLE LOGIN
 
 This project is a web-based application that allows users to browse and search for movies, TV shows, and people using The Movie Database (TMDb) API. Users can also add their favorite movies to a watchlist. The application includes user registration and login functionality, with user data stored in a MySQL database.
