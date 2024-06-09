@@ -1,4 +1,5 @@
 ??no database for movies, using The Movie Database
+
 ??no google login
 
 
@@ -25,16 +26,12 @@ Web browser
 Installation
 Clone the Repository:
 
-bash
-Kodu kopyala
 git clone https://github.com/your-username/movie-database-app.git
 cd movie-database-app
 Set Up Database:
 
 Create a MySQL database named final.
 Create a users table using the following SQL script:
-sql
-Kodu kopyala
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     firstname VARCHAR(50) NOT NULL,
@@ -46,8 +43,6 @@ CREATE TABLE users (
 Configure Database Connection:
 
 Open the login.php file and replace the placeholders with your actual database connection details:
-php
-Kodu kopyala
 $servername = "your_servername";
 $username = "your_username";
 $password = "your_password";
@@ -55,8 +50,6 @@ $dbname = "final";
 API Key:
 
 Replace the placeholder API key in your JavaScript file with your actual TMDb API key:
-javascript
-Kodu kopyala
 const APIKEY = 'api_key=YOUR_TMDB_API_KEY';
 Run the Application:
 
