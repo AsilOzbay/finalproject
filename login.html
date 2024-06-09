@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <title>Login</title>
+</head>
+<body>
+    <div id="header">
+        <div id="logodiv">
+            <a href="index.html"><img id="logoimg" src="registerlogo.png" alt="logoimg"></a>
+        </div>
+    </div>    
+    <div class="main">
+        <div class="login-window">
+            <div class="login">
+                <h1 id="loginheading"><b>Sign-in</b></h1>
+                <hr>
+                <form id="loginform" action="login.php" method="post">
+                    <input type="email" name="email" id="userid" class="logininput" placeholder="Email">
+                    <input type="password" name="password" id="userpassword" class="logininput" placeholder="Password">
+                    <button type="submit" class="submitbtn">Submit</button>
+                    <label class="connectReg">Create a new account?</label>
+                    <a href="register.html" class="connectReg">Sign Up</a>
+                </form> 
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <button class="my-list"><a href="contact-us.html">Help?</a></button>
+    </div>
+</body>
+</html>
