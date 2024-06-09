@@ -27,7 +27,7 @@ Installation
 Clone the Repository:
 
 
-git clone https://github.com/your-username/movie-database-app.git
+git clone https://github.com/AsilOzbay/finalproject/
 cd movie-database-app
 Set Up Database:
 
